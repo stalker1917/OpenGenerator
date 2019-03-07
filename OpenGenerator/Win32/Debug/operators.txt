@@ -1,0 +1,8 @@
+Device = interface(IInvokable)
+function
+ 
+(
+)
+:
+;
+end;

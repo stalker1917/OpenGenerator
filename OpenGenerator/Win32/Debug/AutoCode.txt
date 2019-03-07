@@ -1,0 +1,545 @@
+GetServices GetServices GetServicesResponse
+GetServiceCapabilities GetServiceCapabilities GetServiceCapabilitiesResponse
+GetDeviceInformation GetDeviceInformation GetDeviceInformationResponse
+SetSystemDateAndTime SetSystemDateAndTime SetSystemDateAndTimeResponse
+GetSystemDateAndTime GetSystemDateAndTime GetSystemDateAndTimeResponse
+SetSystemFactoryDefault SetSystemFactoryDefault SetSystemFactoryDefaultResponse
+UpgradeSystemFirmware UpgradeSystemFirmware UpgradeSystemFirmwareResponse
+SystemReboot SystemReboot SystemRebootResponse
+RestoreSystem RestoreSystem RestoreSystemResponse
+GetSystemBackup GetSystemBackup GetSystemBackupResponse
+GetSystemLog GetSystemLog GetSystemLogResponse
+GetSystemSupportInformation GetSystemSupportInformation GetSystemSupportInformationResponse
+GetScopes GetScopes GetScopesResponse
+SetScopes SetScopes SetScopesResponse
+AddScopes AddScopes AddScopesResponse
+RemoveScopes RemoveScopes RemoveScopesResponse
+GetDiscoveryMode GetDiscoveryMode GetDiscoveryModeResponse
+SetDiscoveryMode SetDiscoveryMode SetDiscoveryModeResponse
+GetRemoteDiscoveryMode GetRemoteDiscoveryMode GetRemoteDiscoveryModeResponse
+SetRemoteDiscoveryMode SetRemoteDiscoveryMode SetRemoteDiscoveryModeResponse
+GetDPAddresses GetDPAddresses GetDPAddressesResponse
+SetDPAddresses SetDPAddresses SetDPAddressesResponse
+GetEndpointReference GetEndpointReference GetEndpointReferenceResponse
+GetRemoteUser GetRemoteUser GetRemoteUserResponse
+SetRemoteUser SetRemoteUser SetRemoteUserResponse
+GetUsers GetUsers GetUsersResponse
+CreateUsers CreateUsers CreateUsersResponse
+DeleteUsers DeleteUsers DeleteUsersResponse
+SetUser SetUser SetUserResponse
+GetWsdlUrl GetWsdlUrl GetWsdlUrlResponse
+GetCapabilities GetCapabilities GetCapabilitiesResponse
+GetHostname GetHostname GetHostnameResponse
+SetHostname SetHostname SetHostnameResponse
+SetHostnameFromDHCP SetHostnameFromDHCP SetHostnameFromDHCPResponse
+GetDNS GetDNS GetDNSResponse
+SetDNS SetDNS SetDNSResponse
+GetNTP GetNTP GetNTPResponse
+SetNTP SetNTP SetNTPResponse
+GetDynamicDNS GetDynamicDNS GetDynamicDNSResponse
+SetDynamicDNS SetDynamicDNS SetDynamicDNSResponse
+GetNetworkInterfaces GetNetworkInterfaces GetNetworkInterfacesResponse
+SetNetworkInterfaces SetNetworkInterfaces SetNetworkInterfacesResponse
+GetNetworkProtocols GetNetworkProtocols GetNetworkProtocolsResponse
+SetNetworkProtocols SetNetworkProtocols SetNetworkProtocolsResponse
+GetNetworkDefaultGateway GetNetworkDefaultGateway GetNetworkDefaultGatewayResponse
+SetNetworkDefaultGateway SetNetworkDefaultGateway SetNetworkDefaultGatewayResponse
+GetZeroConfiguration GetZeroConfiguration GetZeroConfigurationResponse
+SetZeroConfiguration SetZeroConfiguration SetZeroConfigurationResponse
+GetIPAddressFilter GetIPAddressFilter GetIPAddressFilterResponse
+SetIPAddressFilter SetIPAddressFilter SetIPAddressFilterResponse
+AddIPAddressFilter AddIPAddressFilter AddIPAddressFilterResponse
+RemoveIPAddressFilter RemoveIPAddressFilter RemoveIPAddressFilterResponse
+GetAccessPolicy GetAccessPolicy GetAccessPolicyResponse
+SetAccessPolicy SetAccessPolicy SetAccessPolicyResponse
+CreateCertificate CreateCertificate CreateCertificateResponse
+GetCertificates GetCertificates GetCertificatesResponse
+GetCertificatesStatus GetCertificatesStatus GetCertificatesStatusResponse
+SetCertificatesStatus SetCertificatesStatus SetCertificatesStatusResponse
+DeleteCertificates DeleteCertificates DeleteCertificatesResponse
+GetPkcs10Request GetPkcs10Request GetPkcs10RequestResponse
+LoadCertificates LoadCertificates LoadCertificatesResponse
+GetClientCertificateMode GetClientCertificateMode GetClientCertificateModeResponse
+SetClientCertificateMode SetClientCertificateMode SetClientCertificateModeResponse
+GetRelayOutputs GetRelayOutputs GetRelayOutputsResponse
+SetRelayOutputSettings SetRelayOutputSettings SetRelayOutputSettingsResponse
+SetRelayOutputState SetRelayOutputState SetRelayOutputStateResponse
+SendAuxiliaryCommand SendAuxiliaryCommand SendAuxiliaryCommandResponse
+GetCACertificates GetCACertificates GetCACertificatesResponse
+LoadCertificateWithPrivateKey LoadCertificateWithPrivateKey LoadCertificateWithPrivateKeyResponse
+GetCertificateInformation GetCertificateInformation GetCertificateInformationResponse
+LoadCACertificates LoadCACertificates LoadCACertificatesResponse
+CreateDot1XConfiguration CreateDot1XConfiguration CreateDot1XConfigurationResponse
+SetDot1XConfiguration SetDot1XConfiguration SetDot1XConfigurationResponse
+GetDot1XConfiguration GetDot1XConfiguration GetDot1XConfigurationResponse
+GetDot1XConfigurations GetDot1XConfigurations GetDot1XConfigurationsResponse
+DeleteDot1XConfiguration DeleteDot1XConfiguration DeleteDot1XConfigurationResponse
+GetDot11Capabilities GetDot11Capabilities GetDot11CapabilitiesResponse
+GetDot11Status GetDot11Status GetDot11StatusResponse
+ScanAvailableDot11Networks ScanAvailableDot11Networks ScanAvailableDot11NetworksResponse
+GetSystemUris GetSystemUris GetSystemUrisResponse
+StartFirmwareUpgrade StartFirmwareUpgrade StartFirmwareUpgradeResponse
+StartSystemRestore StartSystemRestore StartSystemRestoreResponse
+GetStorageConfigurations GetStorageConfigurations GetStorageConfigurationsResponse
+CreateStorageConfiguration CreateStorageConfiguration CreateStorageConfigurationResponse
+GetStorageConfiguration GetStorageConfiguration GetStorageConfigurationResponse
+SetStorageConfiguration SetStorageConfiguration SetStorageConfigurationResponse
+DeleteStorageConfiguration DeleteStorageConfiguration DeleteStorageConfigurationResponse
+GetGeoLocation GetGeoLocation GetGeoLocationResponse
+SetGeoLocation SetGeoLocation SetGeoLocationResponse
+DeleteGeoLocation DeleteGeoLocation DeleteGeoLocationResponse
+=============
+GetServicesData : GetServicesResponse;
+GetServiceCapabilitiesData : GetServiceCapabilitiesResponse;
+GetDeviceInformationData : GetDeviceInformationResponse;
+SetSystemDateAndTimeData : SetSystemDateAndTimeResponse;
+GetSystemDateAndTimeData : GetSystemDateAndTimeResponse;
+SetSystemFactoryDefaultData : SetSystemFactoryDefaultResponse;
+UpgradeSystemFirmwareData : UpgradeSystemFirmwareResponse;
+SystemRebootData : SystemRebootResponse;
+RestoreSystemData : RestoreSystemResponse;
+GetSystemBackupData : GetSystemBackupResponse;
+GetSystemLogData : GetSystemLogResponse;
+GetSystemSupportInformationData : GetSystemSupportInformationResponse;
+GetScopesData : GetScopesResponse;
+SetScopesData : SetScopesResponse;
+AddScopesData : AddScopesResponse;
+RemoveScopesData : RemoveScopesResponse;
+GetDiscoveryModeData : GetDiscoveryModeResponse;
+SetDiscoveryModeData : SetDiscoveryModeResponse;
+GetRemoteDiscoveryModeData : GetRemoteDiscoveryModeResponse;
+SetRemoteDiscoveryModeData : SetRemoteDiscoveryModeResponse;
+GetDPAddressesData : GetDPAddressesResponse;
+SetDPAddressesData : SetDPAddressesResponse;
+GetEndpointReferenceData : GetEndpointReferenceResponse;
+GetRemoteUserData : GetRemoteUserResponse;
+SetRemoteUserData : SetRemoteUserResponse;
+GetUsersData : GetUsersResponse;
+CreateUsersData : CreateUsersResponse;
+DeleteUsersData : DeleteUsersResponse;
+SetUserData : SetUserResponse;
+GetWsdlUrlData : GetWsdlUrlResponse;
+GetCapabilitiesData : GetCapabilitiesResponse;
+GetHostnameData : GetHostnameResponse;
+SetHostnameData : SetHostnameResponse;
+SetHostnameFromDHCPData : SetHostnameFromDHCPResponse;
+GetDNSData : GetDNSResponse;
+SetDNSData : SetDNSResponse;
+GetNTPData : GetNTPResponse;
+SetNTPData : SetNTPResponse;
+GetDynamicDNSData : GetDynamicDNSResponse;
+SetDynamicDNSData : SetDynamicDNSResponse;
+GetNetworkInterfacesData : GetNetworkInterfacesResponse;
+SetNetworkInterfacesData : SetNetworkInterfacesResponse;
+GetNetworkProtocolsData : GetNetworkProtocolsResponse;
+SetNetworkProtocolsData : SetNetworkProtocolsResponse;
+GetNetworkDefaultGatewayData : GetNetworkDefaultGatewayResponse;
+SetNetworkDefaultGatewayData : SetNetworkDefaultGatewayResponse;
+GetZeroConfigurationData : GetZeroConfigurationResponse;
+SetZeroConfigurationData : SetZeroConfigurationResponse;
+GetIPAddressFilterData : GetIPAddressFilterResponse;
+SetIPAddressFilterData : SetIPAddressFilterResponse;
+AddIPAddressFilterData : AddIPAddressFilterResponse;
+RemoveIPAddressFilterData : RemoveIPAddressFilterResponse;
+GetAccessPolicyData : GetAccessPolicyResponse;
+SetAccessPolicyData : SetAccessPolicyResponse;
+CreateCertificateData : CreateCertificateResponse;
+GetCertificatesData : GetCertificatesResponse;
+GetCertificatesStatusData : GetCertificatesStatusResponse;
+SetCertificatesStatusData : SetCertificatesStatusResponse;
+DeleteCertificatesData : DeleteCertificatesResponse;
+GetPkcs10RequestData : GetPkcs10RequestResponse;
+LoadCertificatesData : LoadCertificatesResponse;
+GetClientCertificateModeData : GetClientCertificateModeResponse;
+SetClientCertificateModeData : SetClientCertificateModeResponse;
+GetRelayOutputsData : GetRelayOutputsResponse;
+SetRelayOutputSettingsData : SetRelayOutputSettingsResponse;
+SetRelayOutputStateData : SetRelayOutputStateResponse;
+SendAuxiliaryCommandData : SendAuxiliaryCommandResponse;
+GetCACertificatesData : GetCACertificatesResponse;
+LoadCertificateWithPrivateKeyData : LoadCertificateWithPrivateKeyResponse;
+GetCertificateInformationData : GetCertificateInformationResponse;
+LoadCACertificatesData : LoadCACertificatesResponse;
+CreateDot1XConfigurationData : CreateDot1XConfigurationResponse;
+SetDot1XConfigurationData : SetDot1XConfigurationResponse;
+GetDot1XConfigurationData : GetDot1XConfigurationResponse;
+GetDot1XConfigurationsData : GetDot1XConfigurationsResponse;
+DeleteDot1XConfigurationData : DeleteDot1XConfigurationResponse;
+GetDot11CapabilitiesData : GetDot11CapabilitiesResponse;
+GetDot11StatusData : GetDot11StatusResponse;
+ScanAvailableDot11NetworksData : ScanAvailableDot11NetworksResponse;
+GetSystemUrisData : GetSystemUrisResponse;
+StartFirmwareUpgradeData : StartFirmwareUpgradeResponse;
+StartSystemRestoreData : StartSystemRestoreResponse;
+GetStorageConfigurationsData : GetStorageConfigurationsResponse;
+CreateStorageConfigurationData : CreateStorageConfigurationResponse;
+GetStorageConfigurationData : GetStorageConfigurationResponse;
+SetStorageConfigurationData : SetStorageConfigurationResponse;
+DeleteStorageConfigurationData : DeleteStorageConfigurationResponse;
+GetGeoLocationData : GetGeoLocationResponse;
+SetGeoLocationData : SetGeoLocationResponse;
+DeleteGeoLocationData : DeleteGeoLocationResponse;
+=============
+    20: Result := 'GetServices';
+    21: Result := 'GetServiceCapabilities';
+    22: Result := 'GetDeviceInformation';
+    23: Result := 'SetSystemDateAndTime';
+    24: Result := 'GetSystemDateAndTime';
+    25: Result := 'SetSystemFactoryDefault';
+    26: Result := 'UpgradeSystemFirmware';
+    27: Result := 'SystemReboot';
+    28: Result := 'RestoreSystem';
+    29: Result := 'GetSystemBackup';
+    30: Result := 'GetSystemLog';
+    31: Result := 'GetSystemSupportInformation';
+    32: Result := 'GetScopes';
+    33: Result := 'SetScopes';
+    34: Result := 'AddScopes';
+    35: Result := 'RemoveScopes';
+    36: Result := 'GetDiscoveryMode';
+    37: Result := 'SetDiscoveryMode';
+    38: Result := 'GetRemoteDiscoveryMode';
+    39: Result := 'SetRemoteDiscoveryMode';
+    40: Result := 'GetDPAddresses';
+    41: Result := 'SetDPAddresses';
+    42: Result := 'GetEndpointReference';
+    43: Result := 'GetRemoteUser';
+    44: Result := 'SetRemoteUser';
+    45: Result := 'GetUsers';
+    46: Result := 'CreateUsers';
+    47: Result := 'DeleteUsers';
+    48: Result := 'SetUser';
+    49: Result := 'GetWsdlUrl';
+    50: Result := 'GetCapabilities';
+    51: Result := 'GetHostname';
+    52: Result := 'SetHostname';
+    53: Result := 'SetHostnameFromDHCP';
+    54: Result := 'GetDNS';
+    55: Result := 'SetDNS';
+    56: Result := 'GetNTP';
+    57: Result := 'SetNTP';
+    58: Result := 'GetDynamicDNS';
+    59: Result := 'SetDynamicDNS';
+    60: Result := 'GetNetworkInterfaces';
+    61: Result := 'SetNetworkInterfaces';
+    62: Result := 'GetNetworkProtocols';
+    63: Result := 'SetNetworkProtocols';
+    64: Result := 'GetNetworkDefaultGateway';
+    65: Result := 'SetNetworkDefaultGateway';
+    66: Result := 'GetZeroConfiguration';
+    67: Result := 'SetZeroConfiguration';
+    68: Result := 'GetIPAddressFilter';
+    69: Result := 'SetIPAddressFilter';
+    70: Result := 'AddIPAddressFilter';
+    71: Result := 'RemoveIPAddressFilter';
+    72: Result := 'GetAccessPolicy';
+    73: Result := 'SetAccessPolicy';
+    74: Result := 'CreateCertificate';
+    75: Result := 'GetCertificates';
+    76: Result := 'GetCertificatesStatus';
+    77: Result := 'SetCertificatesStatus';
+    78: Result := 'DeleteCertificates';
+    79: Result := 'GetPkcs10Request';
+    80: Result := 'LoadCertificates';
+    81: Result := 'GetClientCertificateMode';
+    82: Result := 'SetClientCertificateMode';
+    83: Result := 'GetRelayOutputs';
+    84: Result := 'SetRelayOutputSettings';
+    85: Result := 'SetRelayOutputState';
+    86: Result := 'SendAuxiliaryCommand';
+    87: Result := 'GetCACertificates';
+    88: Result := 'LoadCertificateWithPrivateKey';
+    89: Result := 'GetCertificateInformation';
+    90: Result := 'LoadCACertificates';
+    91: Result := 'CreateDot1XConfiguration';
+    92: Result := 'SetDot1XConfiguration';
+    93: Result := 'GetDot1XConfiguration';
+    94: Result := 'GetDot1XConfigurations';
+    95: Result := 'DeleteDot1XConfiguration';
+    96: Result := 'GetDot11Capabilities';
+    97: Result := 'GetDot11Status';
+    98: Result := 'ScanAvailableDot11Networks';
+    99: Result := 'GetSystemUris';
+    100: Result := 'StartFirmwareUpgrade';
+    101: Result := 'StartSystemRestore';
+    102: Result := 'GetStorageConfigurations';
+    103: Result := 'CreateStorageConfiguration';
+    104: Result := 'GetStorageConfiguration';
+    105: Result := 'SetStorageConfiguration';
+    106: Result := 'DeleteStorageConfiguration';
+    107: Result := 'GetGeoLocation';
+    108: Result := 'SetGeoLocation';
+    109: Result := 'DeleteGeoLocation';
+=============
+    20: GetServicesData  := Service.GetServices(GetServices.Create);
+    21: GetServiceCapabilitiesData  := Service.GetServiceCapabilities(GetServiceCapabilities.Create);
+    22: GetDeviceInformationData  := Service.GetDeviceInformation(GetDeviceInformation.Create);
+    23: SetSystemDateAndTimeData  := Service.SetSystemDateAndTime(SetSystemDateAndTime.Create);
+    24: GetSystemDateAndTimeData  := Service.GetSystemDateAndTime(GetSystemDateAndTime.Create);
+    25: SetSystemFactoryDefaultData  := Service.SetSystemFactoryDefault(SetSystemFactoryDefault.Create);
+    26: UpgradeSystemFirmwareData  := Service.UpgradeSystemFirmware(UpgradeSystemFirmware.Create);
+    27: SystemRebootData  := Service.SystemReboot(SystemReboot.Create);
+    28: RestoreSystemData  := Service.RestoreSystem(RestoreSystem.Create);
+    29: GetSystemBackupData  := Service.GetSystemBackup(GetSystemBackup.Create);
+    30: GetSystemLogData  := Service.GetSystemLog(GetSystemLog.Create);
+    31: GetSystemSupportInformationData  := Service.GetSystemSupportInformation(GetSystemSupportInformation.Create);
+    32: GetScopesData  := Service.GetScopes(GetScopes.Create);
+    33: SetScopesData  := Service.SetScopes(SetScopes.Create);
+    34: AddScopesData  := Service.AddScopes(AddScopes.Create);
+    35: RemoveScopesData  := Service.RemoveScopes(RemoveScopes.Create);
+    36: GetDiscoveryModeData  := Service.GetDiscoveryMode(GetDiscoveryMode.Create);
+    37: SetDiscoveryModeData  := Service.SetDiscoveryMode(SetDiscoveryMode.Create);
+    38: GetRemoteDiscoveryModeData  := Service.GetRemoteDiscoveryMode(GetRemoteDiscoveryMode.Create);
+    39: SetRemoteDiscoveryModeData  := Service.SetRemoteDiscoveryMode(SetRemoteDiscoveryMode.Create);
+    40: GetDPAddressesData  := Service.GetDPAddresses(GetDPAddresses.Create);
+    41: SetDPAddressesData  := Service.SetDPAddresses(SetDPAddresses.Create);
+    42: GetEndpointReferenceData  := Service.GetEndpointReference(GetEndpointReference.Create);
+    43: GetRemoteUserData  := Service.GetRemoteUser(GetRemoteUser.Create);
+    44: SetRemoteUserData  := Service.SetRemoteUser(SetRemoteUser.Create);
+    45: GetUsersData  := Service.GetUsers(GetUsers.Create);
+    46: CreateUsersData  := Service.CreateUsers(CreateUsers.Create);
+    47: DeleteUsersData  := Service.DeleteUsers(DeleteUsers.Create);
+    48: SetUserData  := Service.SetUser(SetUser.Create);
+    49: GetWsdlUrlData  := Service.GetWsdlUrl(GetWsdlUrl.Create);
+    50: GetCapabilitiesData  := Service.GetCapabilities(GetCapabilities.Create);
+    51: GetHostnameData  := Service.GetHostname(GetHostname.Create);
+    52: SetHostnameData  := Service.SetHostname(SetHostname.Create);
+    53: SetHostnameFromDHCPData  := Service.SetHostnameFromDHCP(SetHostnameFromDHCP.Create);
+    54: GetDNSData  := Service.GetDNS(GetDNS.Create);
+    55: SetDNSData  := Service.SetDNS(SetDNS.Create);
+    56: GetNTPData  := Service.GetNTP(GetNTP.Create);
+    57: SetNTPData  := Service.SetNTP(SetNTP.Create);
+    58: GetDynamicDNSData  := Service.GetDynamicDNS(GetDynamicDNS.Create);
+    59: SetDynamicDNSData  := Service.SetDynamicDNS(SetDynamicDNS.Create);
+    60: GetNetworkInterfacesData  := Service.GetNetworkInterfaces(GetNetworkInterfaces.Create);
+    61: SetNetworkInterfacesData  := Service.SetNetworkInterfaces(SetNetworkInterfaces.Create);
+    62: GetNetworkProtocolsData  := Service.GetNetworkProtocols(GetNetworkProtocols.Create);
+    63: SetNetworkProtocolsData  := Service.SetNetworkProtocols(SetNetworkProtocols.Create);
+    64: GetNetworkDefaultGatewayData  := Service.GetNetworkDefaultGateway(GetNetworkDefaultGateway.Create);
+    65: SetNetworkDefaultGatewayData  := Service.SetNetworkDefaultGateway(SetNetworkDefaultGateway.Create);
+    66: GetZeroConfigurationData  := Service.GetZeroConfiguration(GetZeroConfiguration.Create);
+    67: SetZeroConfigurationData  := Service.SetZeroConfiguration(SetZeroConfiguration.Create);
+    68: GetIPAddressFilterData  := Service.GetIPAddressFilter(GetIPAddressFilter.Create);
+    69: SetIPAddressFilterData  := Service.SetIPAddressFilter(SetIPAddressFilter.Create);
+    70: AddIPAddressFilterData  := Service.AddIPAddressFilter(AddIPAddressFilter.Create);
+    71: RemoveIPAddressFilterData  := Service.RemoveIPAddressFilter(RemoveIPAddressFilter.Create);
+    72: GetAccessPolicyData  := Service.GetAccessPolicy(GetAccessPolicy.Create);
+    73: SetAccessPolicyData  := Service.SetAccessPolicy(SetAccessPolicy.Create);
+    74: CreateCertificateData  := Service.CreateCertificate(CreateCertificate.Create);
+    75: GetCertificatesData  := Service.GetCertificates(GetCertificates.Create);
+    76: GetCertificatesStatusData  := Service.GetCertificatesStatus(GetCertificatesStatus.Create);
+    77: SetCertificatesStatusData  := Service.SetCertificatesStatus(SetCertificatesStatus.Create);
+    78: DeleteCertificatesData  := Service.DeleteCertificates(DeleteCertificates.Create);
+    79: GetPkcs10RequestData  := Service.GetPkcs10Request(GetPkcs10Request.Create);
+    80: LoadCertificatesData  := Service.LoadCertificates(LoadCertificates.Create);
+    81: GetClientCertificateModeData  := Service.GetClientCertificateMode(GetClientCertificateMode.Create);
+    82: SetClientCertificateModeData  := Service.SetClientCertificateMode(SetClientCertificateMode.Create);
+    83: GetRelayOutputsData  := Service.GetRelayOutputs(GetRelayOutputs.Create);
+    84: SetRelayOutputSettingsData  := Service.SetRelayOutputSettings(SetRelayOutputSettings.Create);
+    85: SetRelayOutputStateData  := Service.SetRelayOutputState(SetRelayOutputState.Create);
+    86: SendAuxiliaryCommandData  := Service.SendAuxiliaryCommand(SendAuxiliaryCommand.Create);
+    87: GetCACertificatesData  := Service.GetCACertificates(GetCACertificates.Create);
+    88: LoadCertificateWithPrivateKeyData  := Service.LoadCertificateWithPrivateKey(LoadCertificateWithPrivateKey.Create);
+    89: GetCertificateInformationData  := Service.GetCertificateInformation(GetCertificateInformation.Create);
+    90: LoadCACertificatesData  := Service.LoadCACertificates(LoadCACertificates.Create);
+    91: CreateDot1XConfigurationData  := Service.CreateDot1XConfiguration(CreateDot1XConfiguration.Create);
+    92: SetDot1XConfigurationData  := Service.SetDot1XConfiguration(SetDot1XConfiguration.Create);
+    93: GetDot1XConfigurationData  := Service.GetDot1XConfiguration(GetDot1XConfiguration.Create);
+    94: GetDot1XConfigurationsData  := Service.GetDot1XConfigurations(GetDot1XConfigurations.Create);
+    95: DeleteDot1XConfigurationData  := Service.DeleteDot1XConfiguration(DeleteDot1XConfiguration.Create);
+    96: GetDot11CapabilitiesData  := Service.GetDot11Capabilities(GetDot11Capabilities.Create);
+    97: GetDot11StatusData  := Service.GetDot11Status(GetDot11Status.Create);
+    98: ScanAvailableDot11NetworksData  := Service.ScanAvailableDot11Networks(ScanAvailableDot11Networks.Create);
+    99: GetSystemUrisData  := Service.GetSystemUris(GetSystemUris.Create);
+    100: StartFirmwareUpgradeData  := Service.StartFirmwareUpgrade(StartFirmwareUpgrade.Create);
+    101: StartSystemRestoreData  := Service.StartSystemRestore(StartSystemRestore.Create);
+    102: GetStorageConfigurationsData  := Service.GetStorageConfigurations(GetStorageConfigurations.Create);
+    103: CreateStorageConfigurationData  := Service.CreateStorageConfiguration(CreateStorageConfiguration.Create);
+    104: GetStorageConfigurationData  := Service.GetStorageConfiguration(GetStorageConfiguration.Create);
+    105: SetStorageConfigurationData  := Service.SetStorageConfiguration(SetStorageConfiguration.Create);
+    106: DeleteStorageConfigurationData  := Service.DeleteStorageConfiguration(DeleteStorageConfiguration.Create);
+    107: GetGeoLocationData  := Service.GetGeoLocation(GetGeoLocation.Create);
+    108: SetGeoLocationData  := Service.SetGeoLocation(SetGeoLocation.Create);
+    109: DeleteGeoLocationData  := Service.DeleteGeoLocation(DeleteGeoLocation.Create);
+=============
+  20: if GetServicesData = nil then exit;
+  21: if GetServiceCapabilitiesData = nil then exit;
+  22: if GetDeviceInformationData = nil then exit;
+  23: if SetSystemDateAndTimeData = nil then exit;
+  24: if GetSystemDateAndTimeData = nil then exit;
+  25: if SetSystemFactoryDefaultData = nil then exit;
+  26: if UpgradeSystemFirmwareData = nil then exit;
+  27: if SystemRebootData = nil then exit;
+  28: if RestoreSystemData = nil then exit;
+  29: if GetSystemBackupData = nil then exit;
+  30: if GetSystemLogData = nil then exit;
+  31: if GetSystemSupportInformationData = nil then exit;
+  32: if GetScopesData = nil then exit;
+  33: if SetScopesData = nil then exit;
+  34: if AddScopesData = nil then exit;
+  35: if RemoveScopesData = nil then exit;
+  36: if GetDiscoveryModeData = nil then exit;
+  37: if SetDiscoveryModeData = nil then exit;
+  38: if GetRemoteDiscoveryModeData = nil then exit;
+  39: if SetRemoteDiscoveryModeData = nil then exit;
+  40: if GetDPAddressesData = nil then exit;
+  41: if SetDPAddressesData = nil then exit;
+  42: if GetEndpointReferenceData = nil then exit;
+  43: if GetRemoteUserData = nil then exit;
+  44: if SetRemoteUserData = nil then exit;
+  45: if GetUsersData = nil then exit;
+  46: if CreateUsersData = nil then exit;
+  47: if DeleteUsersData = nil then exit;
+  48: if SetUserData = nil then exit;
+  49: if GetWsdlUrlData = nil then exit;
+  50: if GetCapabilitiesData = nil then exit;
+  51: if GetHostnameData = nil then exit;
+  52: if SetHostnameData = nil then exit;
+  53: if SetHostnameFromDHCPData = nil then exit;
+  54: if GetDNSData = nil then exit;
+  55: if SetDNSData = nil then exit;
+  56: if GetNTPData = nil then exit;
+  57: if SetNTPData = nil then exit;
+  58: if GetDynamicDNSData = nil then exit;
+  59: if SetDynamicDNSData = nil then exit;
+  60: if GetNetworkInterfacesData = nil then exit;
+  61: if SetNetworkInterfacesData = nil then exit;
+  62: if GetNetworkProtocolsData = nil then exit;
+  63: if SetNetworkProtocolsData = nil then exit;
+  64: if GetNetworkDefaultGatewayData = nil then exit;
+  65: if SetNetworkDefaultGatewayData = nil then exit;
+  66: if GetZeroConfigurationData = nil then exit;
+  67: if SetZeroConfigurationData = nil then exit;
+  68: if GetIPAddressFilterData = nil then exit;
+  69: if SetIPAddressFilterData = nil then exit;
+  70: if AddIPAddressFilterData = nil then exit;
+  71: if RemoveIPAddressFilterData = nil then exit;
+  72: if GetAccessPolicyData = nil then exit;
+  73: if SetAccessPolicyData = nil then exit;
+  74: if CreateCertificateData = nil then exit;
+  75: if GetCertificatesData = nil then exit;
+  76: if GetCertificatesStatusData = nil then exit;
+  77: if SetCertificatesStatusData = nil then exit;
+  78: if DeleteCertificatesData = nil then exit;
+  79: if GetPkcs10RequestData = nil then exit;
+  80: if LoadCertificatesData = nil then exit;
+  81: if GetClientCertificateModeData = nil then exit;
+  82: if SetClientCertificateModeData = nil then exit;
+  83: if GetRelayOutputsData = nil then exit;
+  84: if SetRelayOutputSettingsData = nil then exit;
+  85: if SetRelayOutputStateData = nil then exit;
+  86: if SendAuxiliaryCommandData = nil then exit;
+  87: if GetCACertificatesData = nil then exit;
+  88: if LoadCertificateWithPrivateKeyData = nil then exit;
+  89: if GetCertificateInformationData = nil then exit;
+  90: if LoadCACertificatesData = nil then exit;
+  91: if CreateDot1XConfigurationData = nil then exit;
+  92: if SetDot1XConfigurationData = nil then exit;
+  93: if GetDot1XConfigurationData = nil then exit;
+  94: if GetDot1XConfigurationsData = nil then exit;
+  95: if DeleteDot1XConfigurationData = nil then exit;
+  96: if GetDot11CapabilitiesData = nil then exit;
+  97: if GetDot11StatusData = nil then exit;
+  98: if ScanAvailableDot11NetworksData = nil then exit;
+  99: if GetSystemUrisData = nil then exit;
+  100: if StartFirmwareUpgradeData = nil then exit;
+  101: if StartSystemRestoreData = nil then exit;
+  102: if GetStorageConfigurationsData = nil then exit;
+  103: if CreateStorageConfigurationData = nil then exit;
+  104: if GetStorageConfigurationData = nil then exit;
+  105: if SetStorageConfigurationData = nil then exit;
+  106: if DeleteStorageConfigurationData = nil then exit;
+  107: if GetGeoLocationData = nil then exit;
+  108: if SetGeoLocationData = nil then exit;
+  109: if DeleteGeoLocationData = nil then exit;
+=============
+  20: Result := 0; //GetServicesData
+  21: Result := 0; //GetServiceCapabilitiesData
+  22: Result := 0; //GetDeviceInformationData
+  23: Result := 0; //SetSystemDateAndTimeData
+  24: Result := 0; //GetSystemDateAndTimeData
+  25: Result := 0; //SetSystemFactoryDefaultData
+  26: Result := 0; //UpgradeSystemFirmwareData
+  27: Result := 0; //SystemRebootData
+  28: Result := 0; //RestoreSystemData
+  29: Result := 0; //GetSystemBackupData
+  30: Result := 0; //GetSystemLogData
+  31: Result := 0; //GetSystemSupportInformationData
+  32: Result := 0; //GetScopesData
+  33: Result := 0; //SetScopesData
+  34: Result := 0; //AddScopesData
+  35: Result := 0; //RemoveScopesData
+  36: Result := 0; //GetDiscoveryModeData
+  37: Result := 0; //SetDiscoveryModeData
+  38: Result := 0; //GetRemoteDiscoveryModeData
+  39: Result := 0; //SetRemoteDiscoveryModeData
+  40: Result := 0; //GetDPAddressesData
+  41: Result := 0; //SetDPAddressesData
+  42: Result := 0; //GetEndpointReferenceData
+  43: Result := 0; //GetRemoteUserData
+  44: Result := 0; //SetRemoteUserData
+  45: Result := 0; //GetUsersData
+  46: Result := 0; //CreateUsersData
+  47: Result := 0; //DeleteUsersData
+  48: Result := 0; //SetUserData
+  49: Result := 0; //GetWsdlUrlData
+  50: Result := 0; //GetCapabilitiesData
+  51: Result := 0; //GetHostnameData
+  52: Result := 0; //SetHostnameData
+  53: Result := 0; //SetHostnameFromDHCPData
+  54: Result := 0; //GetDNSData
+  55: Result := 0; //SetDNSData
+  56: Result := 0; //GetNTPData
+  57: Result := 0; //SetNTPData
+  58: Result := 0; //GetDynamicDNSData
+  59: Result := 0; //SetDynamicDNSData
+  60: Result := 0; //GetNetworkInterfacesData
+  61: Result := 0; //SetNetworkInterfacesData
+  62: Result := 0; //GetNetworkProtocolsData
+  63: Result := 0; //SetNetworkProtocolsData
+  64: Result := 0; //GetNetworkDefaultGatewayData
+  65: Result := 0; //SetNetworkDefaultGatewayData
+  66: Result := 0; //GetZeroConfigurationData
+  67: Result := 0; //SetZeroConfigurationData
+  68: Result := 0; //GetIPAddressFilterData
+  69: Result := 0; //SetIPAddressFilterData
+  70: Result := 0; //AddIPAddressFilterData
+  71: Result := 0; //RemoveIPAddressFilterData
+  72: Result := 0; //GetAccessPolicyData
+  73: Result := 0; //SetAccessPolicyData
+  74: Result := 0; //CreateCertificateData
+  75: Result := 0; //GetCertificatesData
+  76: Result := 0; //GetCertificatesStatusData
+  77: Result := 0; //SetCertificatesStatusData
+  78: Result := 0; //DeleteCertificatesData
+  79: Result := 0; //GetPkcs10RequestData
+  80: Result := 0; //LoadCertificatesData
+  81: Result := 0; //GetClientCertificateModeData
+  82: Result := 0; //SetClientCertificateModeData
+  83: Result := 0; //GetRelayOutputsData
+  84: Result := 0; //SetRelayOutputSettingsData
+  85: Result := 0; //SetRelayOutputStateData
+  86: Result := 0; //SendAuxiliaryCommandData
+  87: Result := 0; //GetCACertificatesData
+  88: Result := 0; //LoadCertificateWithPrivateKeyData
+  89: Result := 0; //GetCertificateInformationData
+  90: Result := 0; //LoadCACertificatesData
+  91: Result := 0; //CreateDot1XConfigurationData
+  92: Result := 0; //SetDot1XConfigurationData
+  93: Result := 0; //GetDot1XConfigurationData
+  94: Result := 0; //GetDot1XConfigurationsData
+  95: Result := 0; //DeleteDot1XConfigurationData
+  96: Result := 0; //GetDot11CapabilitiesData
+  97: Result := 0; //GetDot11StatusData
+  98: Result := 0; //ScanAvailableDot11NetworksData
+  99: Result := 0; //GetSystemUrisData
+  100: Result := 0; //StartFirmwareUpgradeData
+  101: Result := 0; //StartSystemRestoreData
+  102: Result := 0; //GetStorageConfigurationsData
+  103: Result := 0; //CreateStorageConfigurationData
+  104: Result := 0; //GetStorageConfigurationData
+  105: Result := 0; //SetStorageConfigurationData
+  106: Result := 0; //DeleteStorageConfigurationData
+  107: Result := 0; //GetGeoLocationData
+  108: Result := 0; //SetGeoLocationData
+  109: Result := 0; //DeleteGeoLocationData
